@@ -27,11 +27,12 @@
     "web-vitals": "^0.2.4",
     "yup": "^0.32.8"
   },
+  
   "scripts": {
-    "json-server": "json-server --watch db.json",
-    "start": "concurrently \"react-scripts start\" \"npm run json-server\"",
+    
+    "start": "concurrently \"react-scripts start\" \"node server.js\"",
+    
     "build": "react-scripts build",
-
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -57,6 +58,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.1",
+    "json-server": "^0.16.3",
     "moxios": "^0.4.0"
   },
   "jest": {
