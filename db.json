@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "id": "871ccf0a-98de-4ab6-a402-74abd0c488d7",
+      "productName": "Realme X2",
+      "description": "Hghphone with snapdragon 730G",
+      "price": 20000,
+      "quantity": 45,
+      "manufacturer": "China",
+      "views": 0
+    },
+    {
+      "id": "ce39bba0-8e22-4138-b5f5-96cd40f91367",
+      "productName": "Redmi",
+      "description": "Good phone with nuice ram and super cool features",
+      "price": 7899,
+      "quantity": 32,
+      "manufacturer": "China",
+      "views": 0
+    },
+    {
+      "productName": "Keyboard",
+      "quantity": 34,
+      "price": 2465,
+      "manufacturer": "India",
+      "description": "dghfjhjsyryjj",
+      "id": "07b2a056-c55e-459c-8cb3-79a4177b2d25",
+      "uviews": 0,
+      "views": 1
+    },
+    {
+      "productName": "Mi Powerbank",
+      "quantity": 45,
+      "price": 1200,
+      "manufacturer": "India",
+      "description": "10000mah with good backup and fast charging",
+      "id": "2f665096-2f5d-458c-beb7-3b40a494a17f",
+      "uviews": 0
+    }
+  ],
+  "users": [
+    {
+      "email": "teja4d@gmail.com",
+      "password": "12345678",
+      "firstName": "Teja",
+      "lastName": "Dharma",
+      "location": "Hyderabad",
+      "mobile": "9010445472",
+      "id": 5
+    },
+    {
+      "email": "teja5d@gmail.com",
+      "password": "123456789",
+      "firstName": "Raju",
+      "lastName": "Ramesh",
+      "location": "Warangal",
+      "mobile": "9865321478",
+      "id": 6
+    },
+    {
+      "email": "teja9d@gmail.com",
+      "password": "123456789",
+      "firstName": "Reddy",
+      "lastName": "Ganesh",
+      "location": "Hyderabad",
+      "mobile": "9848789456",
+      "id": 7
+    },
+    {
+      "email": "teja8d@gmail.com",
+      "password": "123456789",
+      "firstName": "Ravu",
+      "lastName": "Ramesh",
+      "location": "Vizag",
+      "mobile": "9874561232",
+      "id": 8
+    },
+    {
+      "email": "teja7d@gmail.com",
+      "password": "123456789",
+      "firstName": "Ravi",
+      "lastName": "Vittal",
+      "location": "Delhi",
+      "mobile": "7896893255",
+      "id": 9
+    },
+    {
+      "email": "teja56@gmail.com",
+      "password": "12345678",
+      "firstName": "Mahesh",
+      "lastName": "Mittal",
+      "location": "Banglore",
+      "mobile": "9865321245",
+      "id": 10
+    }
+  ]
+}

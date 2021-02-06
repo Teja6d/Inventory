@@ -1,0 +1,9 @@
+.ProductCard:hover{
+    /* transform: scale(1.05); */
+    
+    transform: scale(1.02);
+}
+.ProductCard{
+    transition-duration: 1s;
+    transition-delay: .10s;
+}
