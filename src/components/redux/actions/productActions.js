@@ -1,6 +1,7 @@
 import * as types from './actionTypes';
 import DisplayOfProductListApi from "../../../data/DisplayOfProductListApi"
 import axios from 'axios';
+const port = process.env.PORT || 4000;
 export function loadProductsSuccess(products){
     return {
         type : types.LOAD_PRODUCTS_SUCCESS,
@@ -59,7 +60,7 @@ export function addProduct(product){
 export const updateProduct=(productDetails)=>{
    // console.log(productDetails);
     return dispatch=>{
-        axios.put(`http://localhost:4000/products/${productDetails.id}`,productDetails).then(response=>{
+        axios.put(`http://localhost:${port}/products/${productDetails.id}`,productDetails).then(response=>{
             dispatch(updateProductSuccess(response.data))
         }).catch(error=>{console.log(error)})
     }
@@ -78,7 +79,7 @@ export const addViewProduct=(productDetails)=>{
   //  console.log(productDetails);
 
     return dispatch=>{
-        axios.put(`http://localhost:4000/products/${productDetails.id}`,productDetails).then(response=>{
+        axios.put(`http://localhost:${port}/products/${productDetails.id}`,productDetails).then(response=>{
             //console.log(response.data);
             dispatch(addViewProductSucess(response.data))
         }).catch(error=>console.log(error))

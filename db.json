@@ -7,7 +7,7 @@
       "price": 20000,
       "quantity": 45,
       "manufacturer": "China",
-      "views": 1
+      "views": 5
     },
     {
       "id": "ce39bba0-8e22-4138-b5f5-96cd40f91367",
@@ -16,7 +16,7 @@
       "price": 7899,
       "quantity": 32,
       "manufacturer": "China",
-      "views": 0
+      "views": 3
     },
     {
       "productName": "Mi Powerbank",
@@ -25,7 +25,8 @@
       "manufacturer": "India",
       "description": "10000mah with good backup and fast charging",
       "id": "2f665096-2f5d-458c-beb7-3b40a494a17f",
-      "uviews": 0
+      "uviews": 0,
+      "views": 1
     },
     {
       "productName": "Samsumg",
@@ -34,7 +35,8 @@
       "manufacturer": "India",
       "description": "Nice Phone with super features and good camera",
       "id": "3ff86ec5-9c0a-4d7c-8510-826f24d92bd6",
-      "uviews": 0
+      "uviews": 0,
+      "views": null
     }
   ],
   "users": [
