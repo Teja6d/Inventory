@@ -7,7 +7,7 @@
       "price": 20000,
       "quantity": 45,
       "manufacturer": "China",
-      "views": 0
+      "views": 1
     },
     {
       "id": "ce39bba0-8e22-4138-b5f5-96cd40f91367",
@@ -19,22 +19,21 @@
       "views": 0
     },
     {
-      "productName": "Keyboard",
-      "quantity": 34,
-      "price": 2465,
-      "manufacturer": "India",
-      "description": "dghfjhjsyryjj",
-      "id": "07b2a056-c55e-459c-8cb3-79a4177b2d25",
-      "uviews": 0,
-      "views": 1
-    },
-    {
       "productName": "Mi Powerbank",
       "quantity": 45,
       "price": 1200,
       "manufacturer": "India",
       "description": "10000mah with good backup and fast charging",
       "id": "2f665096-2f5d-458c-beb7-3b40a494a17f",
+      "uviews": 0
+    },
+    {
+      "productName": "Samsumg",
+      "quantity": 45,
+      "price": 35000,
+      "manufacturer": "India",
+      "description": "Nice Phone with super features and good camera",
+      "id": "3ff86ec5-9c0a-4d7c-8510-826f24d92bd6",
       "uviews": 0
     }
   ],
@@ -92,6 +91,15 @@
       "location": "Banglore",
       "mobile": "9865321245",
       "id": 10
+    },
+    {
+      "email": "teja45d@gmail.com",
+      "password": "123456789",
+      "firstName": "Ramu",
+      "lastName": "Readdy",
+      "location": "Mittal",
+      "mobile": "9632145782",
+      "id": 11
     }
   ]
 }

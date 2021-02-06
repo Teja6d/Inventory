@@ -67,7 +67,6 @@ const validationSchema = Yup.object({
          else {
              alert(`${user.email} is already registered`)
          }
-         this.props.history.push("/")
          }
 
          
