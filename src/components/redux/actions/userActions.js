@@ -31,6 +31,7 @@ export  const loadUsers=()=>{
 }
 
 export const addUser=(user)=>{
+    console.log(port)
     return dispatch=>{
         axios.post(`http://localhost:${port}/users`,user).then(response=>{
             //console.log(response.data);
