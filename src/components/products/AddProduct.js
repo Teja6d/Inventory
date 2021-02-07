@@ -6,7 +6,7 @@ const AddProduct=(props)=>{
 //console.log(props);
     
     return (
-        <AddProductForm />
+        <AddProductForm style={{"background":"linear-gradient(#00BC40,#4C3AE3)"}} />
     )
 }
 

@@ -1,4 +1,3 @@
-
 {
   "products": [
     {
@@ -8,7 +7,7 @@
       "price": 7899,
       "quantity": 32,
       "manufacturer": "China",
-      "views": 4
+      "views": 7
     },
     {
       "productName": "Mi Powerbank",
@@ -28,7 +27,7 @@
       "description": "Nice Phone with super features and good camera",
       "id": "3ff86ec5-9c0a-4d7c-8510-826f24d92bd6",
       "uviews": 0,
-      "views": null
+      "views": 2
     },
     {
       "productName": "Poco c3",
@@ -37,7 +36,8 @@
       "manufacturer": "China",
       "description": "Good phone with all features",
       "id": "dbee4cff-7bea-41a8-a19f-447f37328902",
-      "uviews": 0
+      "uviews": 0,
+      "views": 1
     }
   ],
   "users": [

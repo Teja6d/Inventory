@@ -8,7 +8,7 @@ const NavigationBar=(props)=>{
     const navLinksStyle={ color: "white","fontWeight": "bold","padding":"0px 8px 0px 8px"  }
     return(
        <div>
-           <Navbar  expand="lg" style={{"backgroundColor" : "#2554C7"}} variant="dark">
+           <Navbar  expand="lg" style={{"backgroundColor" : "#00BC40"}} variant="dark">
   <Navbar.Brand >
   <Link to="/" style={{"color" : "white", "textDecoration":'none'}}  ><img alt='' src={logo} className='d-inline-block align-top'style={{"width":"50px","height":"50x"}} ></img><span className='navbar-navbrand mb-0 h1'>Inventory</span>
             </Link>

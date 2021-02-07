@@ -15,12 +15,14 @@ let products = productsList.sort((x, y) => (x.views < y.views ? 1 : -1)).slice(0
         datasets: [
             {
                 label : "Most Viewed products",
+                labelColor:'white',
                 data : products.map(product=>product.views),
                 borderColor : ['rgba(255,206,86,0.2'],
-                backgroundColor:['rgba(255,206,86,0.2'],
+                backgroundColor:'white',
                 pointBackgroundColor:'rgba(255,206,86,0.2)',
                 pointBorderColor:'rgba(255,206,86,0.2)'
-            }
+            },
+            
         ]
     }
 

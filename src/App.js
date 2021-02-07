@@ -46,7 +46,7 @@ function App(props) {
 
   return (
    
-    <Container className='bg-dark text-white'>
+    <Container className='bg-dark text-white' style={{"background":"linear-gradient(#00BC40,#4C3AE3)"}}>
       <authContext.Provider value={{isLoggedIn : isLoggedIn,  handleShow : handleShow}}>
 <NavigationBar  isLoggedIn={isLoggedIn} loginhandler={loginhandler} loggedInUser={loggedInUser} logouthandler={logouthandler} handleShow={handleShow} modalShow={modalShow} handleClose={handleClose}/>
 <Switch>

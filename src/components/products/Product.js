@@ -17,7 +17,7 @@ const Product = (props) => {
   return (
     <>
     {(props.showPrice || props.showDescription || props.showManufacturer || props.showProduct || props.showQuantity) && <div style={{"padding":"10px 0"}}>
-      <Card className='ProductCard text-white' text='dark' style={{"backgroundColor" : "white","backdropFilter":"blur(8px)"}}>
+      <Card className='ProductCard text-white' text='dark' >
                
                     <div className="row">
                        

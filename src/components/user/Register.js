@@ -32,7 +32,7 @@ const validationSchema = Yup.object({
  
   return (
       <div style={{paddingTop : "10px"}}>
-      <Card text='dark'>
+      <Card text='white' style={{"background":"linear-gradient(#00BC40,#4C3AE3)"}}>
       <Formik
         
         initialValues={{ email:"",password:"",firstName:"",lastName:"",location:"",mobile:"" }}
