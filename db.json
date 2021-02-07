@@ -1,14 +1,6 @@
+
 {
   "products": [
-    {
-      "id": "871ccf0a-98de-4ab6-a402-74abd0c488d7",
-      "productName": "Realme X2",
-      "description": "Hghphone with snapdragon 730G",
-      "price": 20000,
-      "quantity": 45,
-      "manufacturer": "China",
-      "views": 5
-    },
     {
       "id": "ce39bba0-8e22-4138-b5f5-96cd40f91367",
       "productName": "Redmi",
@@ -16,7 +8,7 @@
       "price": 7899,
       "quantity": 32,
       "manufacturer": "China",
-      "views": 3
+      "views": 4
     },
     {
       "productName": "Mi Powerbank",
@@ -37,6 +29,15 @@
       "id": "3ff86ec5-9c0a-4d7c-8510-826f24d92bd6",
       "uviews": 0,
       "views": null
+    },
+    {
+      "productName": "Poco c3",
+      "quantity": 98,
+      "price": 6999,
+      "manufacturer": "China",
+      "description": "Good phone with all features",
+      "id": "dbee4cff-7bea-41a8-a19f-447f37328902",
+      "uviews": 0
     }
   ],
   "users": [
@@ -102,6 +103,15 @@
       "location": "Mittal",
       "mobile": "9632145782",
       "id": 11
+    },
+    {
+      "email": "teja56d@gmail.com",
+      "password": "123456789",
+      "firstName": "Reddy",
+      "lastName": "Rakesh",
+      "location": "Uppal",
+      "mobile": "9654231870",
+      "id": 12
     }
   ]
 }
